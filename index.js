@@ -33,7 +33,7 @@ const ffmpeg = thread.spawn('ffmpeg', [
 		"aac",
 		"-f",
 		"flv", 
-		`rtmp://rtmp.livepeer.com/live/4097-mw48-mctm-zz6t`
+		`rtmp://rtmp.livepeer.com/live/818e-h3ig-czdp-am9u`
   ])
 
   ffmpeg.on('close', (code, signal) => {
